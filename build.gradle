@@ -19,7 +19,7 @@ repositories.whenObjectAdded {
 
 //declare a build task
 task build
-
+println "This is a simple gradle message"
 //declare a task to create a zip of the app
 task zip(type: Zip) {
 	from ('.') {
